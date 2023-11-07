@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-BR" style="--screen-x: 1286px; --screen-y: 707px;">
+  <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="Content-Language" content="pt-BR">
+     <link rel="stylesheet" type="text/css" href="Cárdapio.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <title>Best Burger Hamburgueria</title>
+     <link rel="icon" href="burgerr.png" type="image/x-icon">
+
+   <body>
+    <div class="burger">Best Burger</div>
+
+    <div class="text-burger">
+     <p>O melhor dos hamburgueres</p>
+    </div>
+    
+    <div class="search-container">
+      <input type="text" id="search" placeholder="Digite o que você quer comer">
+      <img id="search-icon" src="Search.png" alt="Pesquisar">
+    </div>
+    
+    
+    <ul id="suggestionList">
+    <p id="lettersRemaining"></p>
+    <li><a href="/hamburguer">Hamburguer</a></li>
+    <li><a href="/bebidas">Bebidas</a></li>
+    <li><a href="/acompanhamentos">Acompanhamentos</a></li>
+    <li><a href="/doces">Doces</a></li>
+    <li><a href="/smash">Crispy Classic</a></li>
+    <li><a href="/duplo">Duo Supreme</a></li>
+    <li><a href="/chicken">Deluxe Chicken</a></li>
+    <li><a href="/agridoce">Sweet Chili</a></li>
+    <li><a href="/kids">Lil Bite</a></li>
+    <li><a href="/vegano">Veggie Fusion</a></li>
+    <li><a href="/vegetariano">Green Joy</a></li>
+    <li><a href="/selvagem">Wet Wild</a></li>
+    <li><a href="/crunch">Chicken Crunch</a></li>
+    <li><a href="/junior">Junior Joy</a></li>
+    <li><a href="/creamy">Chichen Creamy</a></li>
+    <li><a href="/tiplo">Triplo Meaty</a></li>
+    <li><a href="/cocacola">Coca Cola</a></li>
+    <li><a href="/fanta">Fanta Laranja</a></li>
+    <li><a href="/pepsi">Pepsi</a></li>
+    <li><a href="/sunrise">Tequila Sunrise</a></li>
+    <li><a href="/bluemoon">Blue Moon</a></li>
+    <li><a href="/frozen">Frozen Strawberry</a></li>
+    <li><a href="/pink">Pink Lady</a></li>
+    <li><a href="/miss">Miss Kiwi</a></li>
+    <li><a href="/batatas">Batata Completa</a></li>
+    <li><a href="/batatasim">Batata Simples</a></li>
+    <li><a href="/batatasimley">Smiley Potato</a></li>
+    <li><a href="/minidino">Dino Nuggets</a></li>
+    <li><a href="/batatarus">Batata Rustica</a></li>
+    <li><a href="/bolocenoura">Bolo de Cenoura</a></li>
+    <li><a href="/bolooreo">Bolo de Oreo</a></li>
+    <li><a href="/bolopaçoca">Bolo de paçoca</a></li>
+    <li><a href="/brigadeiro">Brigadeiro</a></li>
+</ul>
+
+    <div class="options-burger">
+      <li class="desktop-category-links__item desktop-category-links__item--active"><a href="#hamburguer">Hamburguer</a></li>
+      <li class="desktop-category-links__item desktop-category-links__item--active"><a href="#bebidas">Bebidas</a></li>
+      <li class="desktop-category-links__item desktop-category-links__item--active"><a href="#acompanhamentos">Acompanhamentos</a></li>
+      <li class="desktop-category-links__item desktop-category-links__item--active"><a href="#doces">Doces</a></li>
+  </div>
+
+<div id="hamburguer">Hamburguer</div>
+
+  <div class="menu-item smash">
+    <a href="/smash">
+      <img src="artesanal-smash.jpeg" alt="Smash Burger">
+        <div class="titulo">
+            <p>Crispy Classic</p>
+    </div>
+    <div class="descricao">
+      <p>Crocante Classico</p>
+    </div>
+    <div class="preco">
+      <p>R$21,80</p>
+    </div>
+  </a>
+</div>
+
+<div class="menu-item duplo-smash">
+    <a href="/duplo">
+        <img src="duplo-smash.jpeg" alt="Duplo Smash">
+        <div class="titulo">
+            <p>Duo Supreme</p>
+        </div>
+        <div class="descricao">
+            <p>Dupla Supremo</p>
+        </div>
+        <div class="preco">
+            <p>R$30,50</p>
+        </div>
+    </a>
+</div>
+
+<div class="menu-item duplo-chicken">
+    <a href="/chicken">
+        <img src="duplasintonia.jpg" alt="Duplo Chicken">
+        <div class="titulo">
+            <p>Deluxe Chicken</p>
+        </div>
+        <div class="descricao">
+            <p>Frango de Luxo</p>
+        </div>
+        <div class="preco">
+            <p>R$35,40</p>
+        </div>
+    </a>
+</div>
+
+<div class="menu-item agridoce">
+  <a href="/agridoce">
+      <img src="sweetchili.jpg" alt="Burger Agridoce">
+      <div class="titulo">
+          <p>Sweet Chili</p>
+      </div>
+      <div class="descricao">
+          <p>Pimenta doce</p>
+      </div>
+      <div class="preco">
+          <p>R$42,90</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item kids">
+  <a href="/kids">
+      <img src="LilBite.jpg" alt="Burger kids">
+      <div class="titulo">
+          <p>Lil Bite</p>
+      </div>
+      <div class="descricao">
+          <p>Pequena Mordida</p>
+      </div>
+      <div class="preco">
+          <p>R$22,80</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item vegano">
+  <a href="/vegano">
+      <img src="VeggieFusion.jpg" alt="Burger vegano">
+      <div class="titulo">
+          <p>Veggie Fusion</p>
+      </div>
+      <div class="descricao">
+          <p>Fusao Vegana</p>
+      </div>
+      <div class="preco">
+          <p>R$25,80</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item vegetariano">
+  <a href="/vegetariano">
+      <img src="LeafyJoy.jpg" alt="Burger vegetariano">
+      <div class="titulo">
+          <p>Green Joy</p>
+      </div>
+      <div class="descricao">
+          <p>Alegria Verde</p>
+      </div>
+      <div class="preco">
+          <p>R$30,80</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item selvagem">
+  <a href="/selvagem">
+      <img src="WetWild.jpg" alt="Burger selvagem">
+      <div class="titulo">
+          <p>Wet Wild</p>
+      </div>
+      <div class="descricao">
+          <p>Molhado Selvagem</p>
+      </div>
+      <div class="preco">
+          <p>R$38,50</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item crunch">
+  <a href="/crunch">
+      <img src="chicken leafy.jpg" alt="Burger crunch">
+      <div class="titulo">
+          <p>Chicken Crunch</p>
+      </div>
+      <div class="descricao">
+          <p>Crocante de Frango</p>
+      </div>
+      <div class="preco">
+          <p>R$31,20</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item junior">
+  <a href="/junior">
+      <img src="rodeo.jpg" alt="Burger junior">
+      <div class="titulo">
+          <p>Junior Joy</p>
+      </div>
+      <div class="descricao">
+          <p>Alegria da criancada</p>
+      </div>
+      <div class="preco">
+          <p>R$24,30</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item creamy">
+  <a href="/creamy">
+      <img src="ChichenCreamy.jpg" alt="Burger creamy">
+      <div class="titulo">
+          <p>Chichen Creamy</p>
+      </div>
+      <div class="descricao">
+          <p>Frango cremoso</p>
+      </div>
+      <div class="preco">
+          <p>R$38,25</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item triplo">
+  <a href="/triplo">
+      <img src="TriploMeaty.jpg" alt="Burger triplo">
+      <div class="titulo">
+          <p>Triplo Meaty</p>
+      </div>
+      <div class="descricao">
+          <p>Tripla Carne</p>
+      </div>
+      <div class="preco">
+          <p>R$38,85</p>
+      </div>
+  </a>
+</div>
+
+<div id="bebidas">Bebidas</div>
+
+<div class="menu-item coca">
+  <a href="/cocacola">
+      <img src="cocacola.jpg" alt="Coca Cola">
+      <div class="titulo">
+          <p>Coca Cola</p>
+      </div>
+      <div class="descricao">
+          <p>Lata 350ml</p>
+      </div>
+      <div class="preco">
+          <p>R$8,47</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item fanta">
+  <a href="/fanta">
+      <img src="fantalaranja.jpg" alt="Fanta Laranja">
+      <div class="titulo">
+          <p>Fanta Laranja</p>
+      </div>
+      <div class="descricao">
+          <p>Lata 310ml</p>
+      </div>
+      <div class="preco">
+          <p>R$7,17</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item pepsi">
+  <a href="/pepsi">
+      <img src="pepsi.jpg" alt="Pepsi">
+      <div class="titulo">
+          <p>Pepsi</p>
+      </div>
+      <div class="descricao">
+          <p>Lata 350ml</p>
+      </div>
+      <div class="preco">
+          <p>R$7,38</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item sunrise">
+  <a href="/sunrise">
+      <img src="tequilasunrise.jpg" alt="Tequila Sunrise">
+      <div class="titulo">
+          <p>Tequila Sunrise</p>
+      </div>
+      <div class="descricao">
+          <p>Tequila e suco de laranja</p>
+      </div>
+      <div class="preco">
+          <p>R$30,28</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item bluemoon">
+  <a href="/bluemoon">
+      <img src="bluemoon.jpg" alt="bluemoon">
+      <div class="titulo">
+          <p>Blue Moon</p>
+      </div>
+      <div class="descricao">
+          <p>Gin e blue curacao</p>
+      </div>
+      <div class="preco">
+          <p>R$37,85</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item frozen">
+  <a href="/frozen">
+      <img src="frozenstrawberries.jpg" alt="frozen">
+      <div class="titulo">
+          <p>Frozen Strawberry</p>
+      </div>
+      <div class="descricao">
+          <p>Tequila e Morango</p>
+      </div>
+      <div class="preco">
+          <p>R$7,38</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item pink">
+  <a href="/pink">
+      <img src="pinklady.jpg" alt="pink">
+      <div class="titulo">
+          <p>Pink Lady</p>
+      </div>
+      <div class="descricao">
+          <p>Gin e Groselha</p>
+      </div>
+      <div class="preco">
+          <p>R$37,28</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item miss">
+  <a href="/miss">
+      <img src="misskiwi.jpg" alt="misskiwi">
+      <div class="titulo">
+          <p>Miss Kiwi</p>
+      </div>
+      <div class="descricao">
+          <p>Martini e Kiwi</p>
+      </div>
+      <div class="preco">
+          <p>R$27,39</p>
+      </div>
+  </a>
+</div>
+
+<div id="acompanhamentos">Acompanhamentos</div>
+
+<div class="menu-item batatas">
+  <a href="/batatas">
+      <img src="batatas.jpeg" alt="Batata">
+      <div class="titulo">
+          <p>Batata Completa</p>
+      </div>
+      <div class="descricao">
+          <p>Batata com adicionais</p>
+      </div>
+      <div class="preco">
+          <p>R$17,77</p>
+      </div>
+  </a>
+</div>
+
+<div class="menu-item batatasim">
+    <a href="/batatasim">
+        <img src="batatasimples.jpeg" alt="Batatasimpes">
+        <div class="titulo">
+            <p>Batata Simples</p>
+        </div>
+        <div class="descricao">
+            <p>Batata</p>
+        </div>
+        <div class="preco">
+            <p>R$10,75</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="menu-item batatasmiley">
+    <a href="/batatasimley">
+        <img src="smileypotatos.jpeg" alt="Batata Smiley">
+        <div class="titulo">
+            <p>Smiley Potato</p>
+        </div>
+        <div class="descricao">
+            <p>Batata com sorriso</p>
+        </div>
+        <div class="preco">
+            <p>R$15,45</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="menu-item minidino">
+    <a href="/minidino">
+        <img src="dinonuggets.jpeg" alt="Mini Chicken Dino">
+        <div class="titulo">
+            <p>Dino Nuggets</p>
+        </div>
+        <div class="descricao">
+            <p>Nuggets em forma de dinossauro</p>
+        </div>
+        <div class="preco">
+            <p>R$15,95</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="menu-item batatarus">
+    <a href="/batatarus">
+        <img src="batatarustica.jpeg" alt="Batata Rustica">
+        <div class="titulo">
+            <p>Batata Rustica</p>
+        </div>
+        <div class="descricao">
+            <p>Batata no forno</p>
+        </div>
+        <div class="preco">
+            <p>R$18,45</p>
+        </div>
+    </a>
+  </div>
+
+  <div id="doces">Doces</div>
+ 
+  <div class="menu-item bolopac">
+    <a href="/bolopaçoca">
+        <img src="bolo de paçoca.jpeg" alt="Bolo no pote paçoca">
+        <div class="titulo">
+            <p>Bolo de Pacoca</p>
+        </div>
+        <div class="descricao">
+            <p>Bolo no pote de paçoca</p>
+        </div>
+        <div class="preco">
+            <p>R$10,25</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="menu-item bolocen">
+    <a href="/bolocenoura">
+        <img src="Bolodecenoura.jpeg" alt="Bolo no pote cenoura">
+        <div class="titulo">
+            <p>Bolo de Cenoura</p>
+        </div>
+        <div class="descricao">
+            <p>Bolo no pote de cenoura</p>
+        </div>
+        <div class="preco">
+            <p>R$11,50</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="menu-item boloor">
+    <a href="/bolooreo">
+        <img src="bolodeoreo.jpeg" alt="Bolo no pote oreo">
+        <div class="titulo">
+            <p>Bolo de Oreo</p>
+        </div>
+        <div class="descricao">
+            <p>Bolo no pote oreo</p>
+        </div>
+        <div class="preco">
+            <p>R$14,47</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="menu-item brigadeiro">
+    <a href="/brigadeiro">
+        <img src="brigadeiro.jpeg" alt="Batata Rustica">
+        <div class="titulo">
+            <p>Brigadeiro</p>
+        </div>
+        <div class="descricao">
+            <p>Coxinha Doce com morango</p>
+        </div>
+        <div class="preco">
+            <p>R$8,50</p>
+        </div>
+    </a>
+  </div>
+
+  <div class="footer">
+    <h2>peca ja o seu</h2>
+    <h3>61 9859-2682</h3>
+</div>
+
+    <h4>Imagens meramente ilustrativas</h4>
+
+
+      <script src="Cárdapio.js"></script>
+   </body>
+  </head>
+</html>

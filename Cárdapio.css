@@ -1,0 +1,310 @@
+@font-face {
+    font-family: Titulo;
+    src: url(CaviarDreams_Bold.ttf)
+}
+
+@font-face {
+    font-family: Subtitulo;
+    src: url(Cocogoose\ Pro\ Light-trial.ttf)
+}
+
+@font-face {
+    font-family: Opcoes;
+    src: url(Cocogoose\ Pro\ Light-trial.ttf)
+}
+
+@font-face {
+    font-family: NomeHamburguer;
+    src: url(MADE\ Tommy\ Soft\ ExtraBold\ PERSONAL\ USE.otf)
+}
+
+@font-face {
+    font-family: Descricao;
+    src: url(couture-bld.otf)
+}
+
+@font-face {
+    font-family: Preco;
+    src: url(Louis\ George\ Cafe.ttf)
+}
+
+@font-face {
+    font-family: Footer;
+    src: url(Fabrica.otf)
+}
+
+body {
+    background: linear-gradient(to left, #d2d0d0, #adadad);
+    color: #000000;
+    font-size: 16px;
+}
+
+[data-test-id="search-input-field"] {
+    width: 170px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 13px;
+    color: #2d2d2d;
+}
+
+[data-test-id="search-input-field"]::placeholder {
+    color: #999;
+    font-style: normal;
+}
+
+[data-test-id="search-input-field"]:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.burger {
+    font-family: Titulo;
+    font-size: 100px;
+    color: #000000;
+    margin-top: -20px;
+
+}
+
+.text-burger {
+    font-family: Subtitulo;
+    font-size: 30px;
+    color: #000000;
+    margin-top: -40px;
+    margin-bottom: 38px;
+}
+
+.options-burger {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 67px;
+}
+
+.options-burger a {
+    text-decoration: none;
+    color: #000000;
+    font-family: Opcoes;
+    font-size: 14px;
+}
+
+
+.options-burger .desktop-category-links__item--active {
+    display: inline;
+    list-style-type: none;
+    background-color: transparent;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.options-burger a:hover {
+    background-color: #ffffff00;
+    color: #dad6d6;;
+}
+
+/* Estilo do contêiner de pesquisa */
+.search-container {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-top: -20px;
+    background-color: #ffffff;
+    background-size: 100% 100%;
+    position: relative;
+  }
+  
+  #search::placeholder {
+    font-family: Opcoes;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Estilo do campo de pesquisa */
+  #search {
+    flex: 1;
+    padding: 0px;
+    border: none;
+    outline: none;
+  }
+  
+  /* Estilo do ícone de pesquisa (imagem) */
+  #search-icon {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+
+#suggestionList {
+    list-style: none;
+    padding: 0;
+}
+
+#suggestionList {
+    display: none; /* Inicialmente, a lista está oculta */
+    list-style: none;
+    padding: 0;
+}
+
+#suggestionList a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #000000; /* Define a cor do texto */
+    font-family: Opcoes;
+    font-size: 11px;
+}
+
+#suggestionList a:hover {
+    background-color: #00000000; 
+    color: #dad6d6;
+    font-family: Opcoes;
+    font-size: 11px;
+}
+
+#lettersRemaining {
+    font-size: 14px;
+    color: #9d0101; /* Cor do texto */
+    margin-top: 10px; /* Espaçamento superior */
+    /* Outros estilos desejados */
+}
+
+.fome {
+    font-family: Opcoes;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#hamburguer {
+    color: #000000;
+    font-family: Opcoes;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#bebidas {
+    color: #000000;
+    font-family: Opcoes;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#acompanhamentos {
+    color: #000000;
+    font-family: Opcoes;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#doces {
+    color: #000000;
+    font-family: Opcoes;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+#combos {
+    color: #000000;
+    font-family: Opcoes;
+    font-size: 15px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.menu-item img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.menu-item .titulo {
+    font-family: NomeHamburguer;
+    font-size: 16px;
+    color: #000000;
+    padding-top: 2px;
+    margin-left: -40px;
+    margin-top: -15px;
+}
+
+.menu-item .descricao {
+    font-family: Descricao;
+    font-size: 12px;
+    margin-left: -20px;
+    width: 250px;
+    color: #000000;
+}
+
+.menu-item .preco {
+    font-family: Preco;
+    font-size: 15px;
+    color: #428301;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: -8px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 10px;
+}
+
+.menu-item .titulo:hover {
+    background-color: #ffffff00;
+    color: #dad6d6;
+    border-radius: 10px;
+    background-size: 100%;
+}
+
+.footer {
+    width: 350px;
+    height: 100px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+h2 {
+    font-family: Footer;
+    font-size: 30px;
+    margin: 0; /* Remova o margin-top e defina a margem para 0 para evitar qualquer espaço indesejado */
+    line-height: 100px; /* Defina a altura da linha igual à altura da div para centralizar verticalmente o texto */
+}
+
+h3 {
+    font-family: Footer;
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+h4 {
+    font-family: Footer;
+    font-size: 15px;
+    color: #464646;
+    margin-top: 20px; /* Remova o margin-top e defina a margem para 0 para evitar qualquer espaço indesejado */
+}
